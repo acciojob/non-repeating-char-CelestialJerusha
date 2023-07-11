@@ -12,4 +12,9 @@ var a = prompt("Enter a string");
         result.push(a.charAt(i));
       }
     }
-    alert(result[0]);
+    if(result.length === 0){
+      alert("null");
+    }
+    else{
+      alert(result[0]);
+    }
