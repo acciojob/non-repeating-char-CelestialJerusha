@@ -13,7 +13,7 @@ var a = prompt("Enter a string");
       }
     }
     if(result.length === 0){
-      alert("null");
+      alert(null);
     }
     else{
       alert(result[0]);
